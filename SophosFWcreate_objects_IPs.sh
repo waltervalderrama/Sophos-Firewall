@@ -9,9 +9,9 @@
 # ./SophosFWcreate_objects_IPs.sh $file_name $object_name_to_create $password
 
 # Where
-# $file_name = the name of the file where IP addresses you want to add are
-# $object_name_to_create = the name of the object you want to create on your Sophos Firewall
-# $password = the unencrypted password of the API admin user you must create 
+# $file_name = The name of the file where IP addresses you want to add are. There must be one IP address per line.
+# $object_name_to_create = The name of the object you want to create on your Sophos Firewall
+# $password = The unencrypted password of the API admin user you must create 
 
 CAT=/usr/bin/cat
 CUT=/usr/bin/cut
