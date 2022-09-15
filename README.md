@@ -1,5 +1,5 @@
 # Sophos-Firewall
-Scripts to interact with Sophos Firewall (former Sophos XG Firwall) via APIs
+# Scripts to interact with Sophos Firewall (former Sophos XG Firwall) via APIs
 # Author: Walter Valderrama
 # https://github.com/waltervalderrama
 # Usage:
