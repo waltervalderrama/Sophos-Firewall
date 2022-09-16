@@ -11,7 +11,7 @@ and having downloaded (for example from https://github.com/firehol/blocklist-ips
 massively many single IP objects on Sophos Firewall.
 
 ## Syntax
-*./update_IPs_and_objects.sh $file_name $object_name_to_create $password*
+**./update_IPs_and_objects.sh $file_name $object_name_to_create $password**
 
 ## Where
 $file_name = the name of the file where IP addresses you want to add are
