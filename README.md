@@ -14,7 +14,7 @@ massively many single IP objects on Sophos Firewall.
 `./update_IPs_and_objects.sh $file_name $object_name_to_create $password`
 
 ## Where
-$file_name = the name of the file where IP addresses you want to add are
-$object_name_to_create = the name of the object you want to create on your Sophos Firewall
-$password = the unencrypted password of the API admin user you must create
+* $file_name = the name of the file where IP addresses you want to add are
+* $object_name_to_create = the name of the object you want to create on your Sophos Firewall
+* $password = the unencrypted password of the API admin user you must create
 In this script, it is assumed that you created a user *API_adm* to connect to the Firewall
