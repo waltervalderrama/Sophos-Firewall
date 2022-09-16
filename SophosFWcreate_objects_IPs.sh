@@ -6,8 +6,6 @@ SED=/usr/bin/sed
 CURL=/usr/bin/curl
 PATH=$(pwd)
 filename=$1
-#filename='/home/walter/bad_ips_feeds/blocklist-ipsets/firehol_level'$1'.netset'
-#filename='/home/walter/bad_ips_feeds/blocklist-ipsets/test'$1'.netset'
 n=1
 while read line; do
 # reading each line
