@@ -1,18 +1,5 @@
 #!/bin/bash
 
-# Author: Walter Valderrama
-# https://github.com/waltervalderrama
-# Usage: 
-# After configurying an API connection on your Firewall (see the following link) https://docs.sophos.com/nsg/sophos-firewall/18.5/Help/en-us/webhelp/onlinehelp/AdministratorHelp/BackupAndFirmware/API/APIUsingAPI/index.html and having downloaded (for example from https://github.com/firehol/blocklist-ipsets.git) or built by yourself an IP list, it is possible to create massively many single IP objects on Sophos Firewall.
-
-# Syntax
-# ./SophosFWcreate_objects_IPs.sh $file_name $object_name_to_create $password
-
-# Where
-# $file_name = The name of the file where IP addresses you want to add are. There must be one IP address per line.
-# $object_name_to_create = The name of the object you want to create on your Sophos Firewall
-# $password = The unencrypted password of the API admin user you must create 
-
 CAT=/usr/bin/cat
 CUT=/usr/bin/cut
 SED=/usr/bin/sed
