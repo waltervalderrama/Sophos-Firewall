@@ -16,7 +16,7 @@ If you are going to create an IP List object, use the `IOC_IP_feeder.sh` to prep
 ### To create many single IP objects:
 `./SophosFWcreate_objects_IPs.sh Option1 Option2 Option3 Option4 Option5`
 **Where**
-* Option1 = The name of the file where IP addresses you want to add are (full path)
+* *Option1* = The name of the file where IP addresses you want to add are (full path)
 * Option2 = The name of the object you want to create on your Sophos Firewall
 * Option3 = FQDN or IP address of the firewall
 * Option4 = API admin user
