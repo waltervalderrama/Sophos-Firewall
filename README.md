@@ -9,6 +9,9 @@ https://docs.sophos.com/nsg/sophos-firewall/18.5/Help/en-us/webhelp/onlinehelp/A
 and having downloaded (for example from https://github.com/firehol/blocklist-ipsets.git) or built by yourself an IP list, it is possible to massively
 create many single IP objects, or one single List IP object on Sophos Firewall.
 
+## Feeder:
+If you are going to create an IP List object, use the `IOC_IP_feeder.sh` to prepare a comma separeted file. This step is crucial if you have a file where all the IP addresses exist one per line.
+
 ## Syntax
 ### To create many single IP objects:
 `./SophosFWcreate_objects_IPs.sh Option1 Option2 Option3 Option4 Option5`
