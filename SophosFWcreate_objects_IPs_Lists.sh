@@ -1,9 +1,7 @@
 #!/bin/bash
 
-CAT=/usr/bin/cat
-CUT=/usr/bin/cut
-SED=/usr/bin/sed
-CURL=/usr/bin/curl
+CAT=$(which cat)
+CURL=$(which curl)
 PATH=$(pwd)
 filename=$1
 IP_List=$($CAT $1)

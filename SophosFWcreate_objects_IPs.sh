@@ -1,9 +1,9 @@
 #!/bin/bash
 
-CAT=/usr/bin/cat
-CUT=/usr/bin/cut
-SED=/usr/bin/sed
-CURL=/usr/bin/curl
+CAT=$(which cat)
+CURL=$(which curl)
+SED=$(which sed)
+CUT=$(which cut)
 PATH=$(pwd)
 filename=$1
 n=1
