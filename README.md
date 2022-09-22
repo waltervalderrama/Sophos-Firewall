@@ -7,7 +7,7 @@ Scripts to interact with Sophos Firewall (former Sophos XG Firwall) via APIs
 After configurying an API connection on your Firewall using the following link
 https://docs.sophos.com/nsg/sophos-firewall/18.5/Help/en-us/webhelp/onlinehelp/AdministratorHelp/BackupAndFirmware/API/APIUsingAPI/index.html
 and having downloaded (for example from https://github.com/firehol/blocklist-ipsets.git) or built by yourself an IP list, it is possible to massively
-create many single IP objects, or one single List IP object on Sophos Firewall.
+create many single IP objects, or one single IP List object on Sophos Firewall.
 
 ## Feeder:
 If you are going to create an IP List object, use the `IOC_IP_feeder.sh` to prepare a comma separeted file. This step is crucial if you have a file where all the IP addresses exist one per line.
