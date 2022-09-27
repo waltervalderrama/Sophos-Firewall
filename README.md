@@ -6,7 +6,7 @@ Scripts to interact with Sophos Firewall (former Sophos XG Firwall) via APIs
 ## Usage:
 After configuring an API connection on your Firewall using the following link
 https://docs.sophos.com/nsg/sophos-firewall/18.5/Help/en-us/webhelp/onlinehelp/AdministratorHelp/BackupAndFirmware/API/APIUsingAPI/index.html
-and having downloaded (for example from https://github.com/firehol/blocklist-ipsets.git) or built by yourself an IP list, it is possible to massively
+and having downloaded (for example from https://github.com/firehol/blocklist-ipsets.git), MISP or built by yourself an IP list, it is possible to massively
 create many single IP objects, or one single IP List object on Sophos Firewall.
 
 ## Feeder:
